@@ -1,0 +1,21 @@
+{
+  "name": "guitarics-chordify",
+  "version": "0.0.2",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "readme": "node ./node_modules/.bin/node-readme",
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [
+    "guitarics",
+    "chordify"
+  ],
+  "author":  {
+    "name": "Wendly Saintil",
+    "email": "wendlysaintil@gmail.com",
+    "url": "http://github.com/wspecs"
+  },
+  "license": "MIT"
+}
