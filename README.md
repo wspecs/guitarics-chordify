@@ -36,6 +36,17 @@ chord.sharpen();
 chord.getChord(); // Csus4
 ```
 
+### Add chord with key
+
+```js
+const chordify = require('guitarics-chordify');
+
+// A Bsus4 chord for a song in the key of E
+const chord = new chordify.Chord('Bsus4', 'E');
+
+// Chord { note: 'B', key: 'E', variation: 'sus4', isSharpKey: true }
+```
+
 ## Install
 
 `npm install --save guitarics-chordify`
@@ -43,13 +54,18 @@ chord.getChord(); // Csus4
 
 ## Scripts
 
- - **npm run test** : `echo "Error: no test specified"`
+ - **npm run build** : `tsc`
+ - **npm run test** : `mocha ./dist/test/*.js`
 
 ## Dependencies
 
 Package | Version | Dev
 --- |:---:|:---:
-
+[@types/chai](https://www.npmjs.com/package/@types/chai) | ^4.1.3 | ✔
+[@types/mocha](https://www.npmjs.com/package/@types/mocha) | ^5.2.0 | ✔
+[chai](https://www.npmjs.com/package/chai) | ^4.1.2 | ✔
+[mocha](https://www.npmjs.com/package/mocha) | ^5.1.1 | ✔
+[ts-node](https://www.npmjs.com/package/ts-node) | ^6.0.0 | ✔
 
 
 ## Contributing
