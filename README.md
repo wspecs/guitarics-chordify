@@ -1,6 +1,6 @@
 # guitarics-chordify
 
-![npm](https://img.shields.io/npm/v/guitarics-chordify.svg) ![license](https://img.shields.io/npm/l/guitarics-chordify.svg) ![github-issues](https://img.shields.io/github/issues/wspecs/guitarics-chordify.svg)  ![Circle CI build status](https://circleci.com/gh/wspecs/guitarics-chordify.svg?style=svg)
+![npm](https://img.shields.io/npm/v/guitarics-chordify.svg) ![license](https://img.shields.io/npm/l/guitarics-chordify.svg) ![github-issues](https://img.shields.io/github/issues/wspecs/guitarics-chordify.svg)
 
 
 
