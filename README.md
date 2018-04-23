@@ -58,7 +58,7 @@ Contributions welcome; Please submit all pull requests against the master branch
 
 ## Author
 
-Wendly Saintil <wendlysaintil@gmail.com> http://github.com/wspecs
+Wendly Saintil <wendlysaintil@gmail.com> https://twitter.com/wendlysaintil
 
 ## License
 
