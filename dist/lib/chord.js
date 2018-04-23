@@ -16,6 +16,10 @@ var Chord = /** @class */ (function () {
         this.key = key ? utils_1.getNoteFromChordname(key) : this.note;
         this.setIsSharpKey(isSharp);
     }
+    Chord.prototype.setKey = function (key) {
+        this.key = utils_1.getNoteFromChordname(key);
+        this.setIsSharpKey();
+    };
     Chord.prototype.setIsSharpKey = function (isSharp) {
         this.isSharpKey = isSharp === undefined ? utils_1.isSharpKey(this.key) : isSharp;
     };

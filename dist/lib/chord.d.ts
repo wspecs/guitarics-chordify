@@ -5,6 +5,7 @@ export declare class Chord {
     variation: string;
     isSharpKey: boolean;
     constructor(chord: string, key?: string, isSharp?: boolean);
+    setKey(key: string): void;
     setIsSharpKey(isSharp?: boolean): void;
     flatten(): void;
     sharpen(): void;

@@ -20,6 +20,11 @@ export class Chord {
     this.setIsSharpKey(isSharp);
   }
 
+  setKey(key: string) {
+    this.key = getNoteFromChordname(key);
+    this.setIsSharpKey();
+  }
+
   setIsSharpKey(isSharp?: boolean) {
     this.isSharpKey = isSharp === undefined ? isSharpKey(this.key) : isSharp;
   }
