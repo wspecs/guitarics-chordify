@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "scripts": {
-    "readme": "node ./node_modules/.bin/node-readme",
+  "repository": "wspecs/guitarics-chordify",
+  "scripts": { 
     "test": "echo \"Error: no test specified\""
   },
   "keywords": [
