@@ -17,6 +17,24 @@
 
 ## Features
 
+- Create and transpose music chords.
+
+## Usage
+
+```js
+const chordify = require('guitarics-chordify');
+
+const chord = new chordify.Chord('Bsus4');
+console.log(chord); // Chord { note: 'B', key: 'B', variation: 'sus4', isSharpKey: true }
+
+chord.flatten();
+console.log(chord); // Chord { note: 'Bb', key: 'Bb', variation: 'sus4', isSharpKey: false }
+
+chord.sharpen(); // Return back to original chord Bsus4
+
+chord.sharpen();
+chord.getChord(); // Csus4
+```
 
 ## Install
 
@@ -36,7 +54,7 @@ Package | Version | Dev
 
 ## Contributing
 
-Contributions welcome; Please submit all pull requests the against master branch. If your pull request contains JavaScript patches or features, you should include relevant unit tests. Please check the [Contributing Guidelines](contributng.md) for more details. Thanks!
+Contributions welcome; Please submit all pull requests against the master branch. If your pull request contains JavaScript patches or features, you should include relevant unit tests. Please check the [Contributing Guidelines](contributng.md) for more details. Thanks!
 
 ## Author
 
