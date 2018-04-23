@@ -1,2 +1,2 @@
-import * as libChord from './lib/chord';
-export const Chord = libChord.Chord;
+import {Chord} from './lib/chord';
+export {Chord}

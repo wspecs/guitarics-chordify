@@ -1,12 +1,12 @@
 {
   "name": "guitarics-chordify",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "wspecs/guitarics-chordify",
   "scripts": {
-    "build": "tsc",
+    "build": "rm -rf dist && tsc",
     "test": "mocha ./dist/test/*.js"
   },
   "keywords": [
